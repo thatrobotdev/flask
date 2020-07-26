@@ -80,6 +80,10 @@ First time setup
         pip install -e ".[dev]"
 
 - Install the `pre-commit framework`_.
+
+        pip install pre-commit
+        # see https://pre-commit.com/#install for non-administrative installation
+
 - Install the pre-commit hooks::
 
         pre-commit install --install-hooks
